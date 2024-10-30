@@ -22,8 +22,6 @@ function displayRanking(data) {
     });
 }
 
-
-
 // JSON 載入並初始化
 fetch('songs.json')
     .then(response => response.json())
